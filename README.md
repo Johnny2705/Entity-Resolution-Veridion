@@ -33,4 +33,6 @@ Another algorithm I tried was KMeans, but again the number of clusters needs to 
 
 ## Conclusion
 
-DBSCAN was my algorithm of coice because it provides a good balance between scalability and accuracy for the high-dimensional, sparse data text data.
+The questions I asked myself were crucial in guiding my approach. Some of them like **Which attributes best represent a company's identity**, **How can I ensure accurate comparisons despite minor variations** or **What is the optimmal balance between detail and performance in the composite key** helped me improve my solution every time and avoid overfitting.
+DBSCAN was my algorithm of choice because it provides a good balance between scalability and accuracy for the high-dimensional, sparse data text data.Its ability to handle noise and automatically determine the number of clusters proved essential for effective duplicate detetction.
+Moving forward, I plan to further explore parameter tunning and feature engineering to enhance the performance of the solution.
